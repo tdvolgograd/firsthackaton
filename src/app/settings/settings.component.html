@@ -1,0 +1,55 @@
+<h1>settings works!АКР</h1>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Chicanery | Trickery and Subterfuge</title>
+  <meta http-equiv="content-language" content="en-us" />
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="description" content="Chincanery is a beautiful free template that's standards-compliant." />
+
+
+</head>
+<body>
+
+<div id="content-wrapper">
+  <div id="content">
+    <p>Chicanery is a free template created by Sadhana Ganapathiraju, aka SimplyGold. It's released under <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-
+      ShareAlike 2.5 License</a>, which means that you can use it, modify it, and pretty much do whatever you
+      want with the files as long as you don't resell it or use it for commercial purposes.</p>
+    <p>If you want to be able to use the templates for commercial purposes, <a href="#contact/"> contact me</a>. I included a small link at the bottom that says "Design by Sadhana Ganapathiraju." You aren't required
+      to keep it, but if you do, it's much appreciated. :-)</p>
+    <ul>
+      <ng-container *ngFor='let item of navData'>
+        <li>
+          <!-- Проверяем наличие подменю (items) -->
+          <ul *ngIf="item.items && item.items.length > 0">
+            <ng-container *ngFor="let subItem of item.items">
+              <li>
+
+                  <h3> {{subItem.label}}BLBLLBLBLBLLBLBL</h3>
+                  <p class="block"  > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi ut nisi adipiscing lectus egestas mollis.
+                    .{{ subItem.about }} </p>
+              </li>
+            </ng-container>
+          </ul>
+        </li>
+      </ng-container>
+    </ul>
+
+  </div>
+  <hr />
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
